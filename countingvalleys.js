@@ -21,4 +21,3 @@ function countingValleys(stepsCount, stepsString) {
   return valleyCount;
 }
 
-console.log("Hello World");
