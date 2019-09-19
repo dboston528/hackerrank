@@ -5,7 +5,7 @@ function countingValleys(stepsCount, stepsString) {
   let currentLevel = 0;
   let previousLevel = 0;
   
-  for (let i = 0; i < stepsString.length) {
+  for (let i = 0; i < stepsString.length; i++) {
     previousLevel  = currentLevel;
     if (stepsString[i] === 'U') {
         currentLevel +=1;
@@ -14,7 +14,7 @@ function countingValleys(stepsCount, stepsString) {
         }
     
     if (previousLevel === 0 && currentLevel <0) {
-      vallwyCount += 1;
+      valleyCount += 1;
     }
   }
   
